@@ -57,6 +57,20 @@ GitHub Repositories
 - 각 단계를 Git commit/tag로 보존한 뒤 다음 단계로 진행한다.
 - 비교 실험이 끝날 때까지 미래 PR 단계와 강의용 전시·QR 계획을 실험 Agent에게 미리 알리지 않는다.
 
+## 확정된 공통 DESIGN.md 기준
+
+B와 C에는 동일한 실험용 웹 `DESIGN.md`를 사용한다.
+
+- B: `knollab-001-b-design-md/DESIGN.md`
+- C: `knollab-001-c-design-figma-mcp/DESIGN.md`
+- Git blob SHA: `3f417549090ff7dba9c66a39e7542ef6c3f64b89`
+
+두 파일은 byte-for-byte 동일하다.
+
+이 문서는 구체적인 정답 화면을 고정하지 않고, 특수학교 학생의 인지 부담, 핵심 행동의 명확성, 선택 상태, 진행 상태, 쉬운 복구, 터치 조작성, 일관성, 실제 생활 연습성 등 AI가 설계와 자기검토에 사용할 UX/UI 판단 기준을 제공한다.
+
+화면 수, 메뉴 수, 정확한 색상, 버튼 위치, 구체적인 진행 UI 방식 등은 의도적으로 고정하지 않는다.
+
 ## 공통 실험 대상
 
 특수학교 학생이 카페에서 음료를 주문하는 과정을 연습할 수 있는 웹사이트를 순수 HTML/CSS/JavaScript로 구현한다.
@@ -70,8 +84,8 @@ GitHub Repositories
 - [x] A·B·C ChatGPT 프로젝트 폴더 생성
 - [x] ChatGPT 프로젝트 폴더명과 Repository명 일치
 - [x] 세 실험군의 프로젝트 전용 메모리 사용 원칙 확정
-- [ ] 실험용 웹 `DESIGN.md` 확정
-- [ ] B·C에 동일한 `DESIGN.md` 배치
+- [x] 실험용 웹 `DESIGN.md` 확정
+- [x] B·C에 byte-for-byte 동일한 `DESIGN.md` 배치
 - [ ] C용 Figma 기준 설계 및 고정
 - [ ] 세 프로젝트 초기 조건 확인
 - [ ] PR1 시작
