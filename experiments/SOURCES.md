@@ -10,3 +10,5 @@
 | D | [knollab-001-d-design-figma-mcp-actively](https://github.com/LUCKYBRIDGE/knollab-001-d-design-figma-mcp-actively) | `8249311bfcdd431b630d8a7e25d8613bf02922f0` | v1 |
 
 D의 저장소 루트에는 완성 전 버전 2 작업이 있지만, 완성된 보관본은 `versions/v1/` 하나이므로 체험 사이트에도 v1만 제공한다.
+
+D의 v1 원본 CSS는 720px 최소 너비로 만들어져 작은 화면에서 내용이 잘린다. 원본은 이 폴더의 `d/v1/`과 D 저장소의 `versions/v1/`에 그대로 보존한다. 실제 체험에는 실행에 필요한 HTML·CSS·JavaScript를 복사한 `../experiences/d/v1/`을 사용하며, 이 사본의 HTML에 모바일용 `responsive.css`만 추가했다.

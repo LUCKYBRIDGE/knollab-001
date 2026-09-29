@@ -46,7 +46,9 @@ test("A version 2 selects the correct local snapshot and links", () => {
 
 test("D exposes only version 1 even when version 3 is requested", () => {
   const { versionLinks, elements } = render("?experiment=d&version=3");
-  assert.equal(elements["#experience-frame"].src, "experiments/d/v1/");
+  assert.equal(elements["#experience-frame"].src, "experiences/d/v1/");
+  assert.ok(existsSync(resolve(root, "experiments/d/v1/index.html")));
+  assert.ok(existsSync(resolve(root, "experiences/d/v1/responsive.css")));
   assert.equal(versionLinks[0].hidden, false);
   assert.equal(versionLinks[1].hidden, true);
   assert.equal(versionLinks[2].hidden, true);

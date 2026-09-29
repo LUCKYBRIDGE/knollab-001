@@ -13,7 +13,7 @@
   const selected = experiments[experiment];
   const requestedVersion = Number(query.get("version"));
   const version = selected.versions.includes(requestedVersion) ? requestedVersion : 1;
-  const originalUrl = `experiments/${experiment}/v${version}/`;
+  const originalUrl = experiment === "d" ? "experiences/d/v1/" : `experiments/${experiment}/v${version}/`;
 
   for (const link of document.querySelectorAll("[data-experiment]")) {
     const id = link.dataset.experiment;
