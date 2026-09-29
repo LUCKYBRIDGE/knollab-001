@@ -6,23 +6,27 @@
 
 ## 실험 프로젝트
 
-| 실험군 | 프로젝트 폴더 = Repository | 추가 환경 |
+| 실험군 | ChatGPT 프로젝트 폴더 = Repository명 | 추가 환경 |
 |---|---|---|
 | A. AI Only | [`knollab-001-a-ai-only`](https://github.com/LUCKYBRIDGE/knollab-001-a-ai-only) | 없음 |
 | B. DESIGN.md | [`knollab-001-b-design-md`](https://github.com/LUCKYBRIDGE/knollab-001-b-design-md) | `DESIGN.md` |
 | C. DESIGN.md + Figma MCP | [`knollab-001-c-design-figma-mcp`](https://github.com/LUCKYBRIDGE/knollab-001-c-design-figma-mcp) | B와 동일한 `DESIGN.md` + 고정 Figma + Figma MCP |
 
-로컬에서도 위 Repository 이름과 프로젝트 폴더명을 동일하게 유지한다.
+세 실험군은 각각 별도의 **ChatGPT 프로젝트 폴더**와 별도의 **GitHub Repository**로 운영하며, 프로젝트 폴더명과 Repository명을 동일하게 유지한다.
 
 ```text
-<workspace>/
-├─ knollab-001/
-├─ knollab-001-a-ai-only/
-├─ knollab-001-b-design-md/
-└─ knollab-001-c-design-figma-mcp/
+ChatGPT Projects
+├─ knollab-001-a-ai-only
+├─ knollab-001-b-design-md
+└─ knollab-001-c-design-figma-mcp
+
+GitHub Repositories
+├─ knollab-001-a-ai-only
+├─ knollab-001-b-design-md
+└─ knollab-001-c-design-figma-mcp
 ```
 
-세 실험 프로젝트는 `knollab-001`의 하위 프로젝트가 아니라 **각각 독립된 Git Repository와 ChatGPT 프로젝트 폴더**로 운영한다. 중앙 `knollab-001`에는 실험 조건, 공통 프롬프트, Repository/Pages URL, 단계별 commit/tag, DESIGN.md 버전, Figma 기준, 관찰 결과와 최종 비교를 기록한다.
+중앙 `knollab-001`은 별도의 Control Repository이며, 실험 조건, 공통 프롬프트, Repository/Pages URL, 단계별 commit/tag, DESIGN.md 버전, Figma 기준, 관찰 결과와 최종 비교를 기록한다.
 
 세 프로젝트의 상세 매핑과 현재 준비 상태는 [`EXPERIMENT_PROJECTS.md`](./EXPERIMENT_PROJECTS.md)에 기록한다.
 
@@ -61,9 +65,11 @@
 
 ## 현재 상태
 
-- [x] 세 실험 Repository 생성
-- [x] 세 프로젝트 폴더/Repository 이름 확정
-- [x] 세 실험군의 ChatGPT 프로젝트 분리 및 프로젝트 전용 메모리 사용 원칙 확정
+- [x] 중앙 관리 Repository `knollab-001` 생성
+- [x] A·B·C 실험 Repository 생성
+- [x] A·B·C ChatGPT 프로젝트 폴더 생성
+- [x] ChatGPT 프로젝트 폴더명과 Repository명 일치
+- [x] 세 실험군의 프로젝트 전용 메모리 사용 원칙 확정
 - [ ] 실험용 웹 `DESIGN.md` 확정
 - [ ] B·C에 동일한 `DESIGN.md` 배치
 - [ ] C용 Figma 기준 설계 및 고정
