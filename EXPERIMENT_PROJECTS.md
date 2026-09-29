@@ -89,6 +89,19 @@ GitHub Repositories
 - PR1~PR3 동안 구현 결과에 맞추어 Figma 기준을 변경하지 않음
 - 독립된 ChatGPT 프로젝트 + 프로젝트 전용 메모리 사용
 
+## 공통 DESIGN.md 기준
+
+B와 C에 배치된 `DESIGN.md`는 동일한 기준 파일이다.
+
+- B path: `knollab-001-b-design-md/DESIGN.md`
+- C path: `knollab-001-c-design-figma-mcp/DESIGN.md`
+- Git blob SHA: `3f417549090ff7dba9c66a39e7542ef6c3f64b89`
+- 상태: byte-for-byte 동일성 확인 완료
+
+문서는 특수학교 학생용 카페 주문 연습 웹사이트에서 사용할 UX/UI 판단 원칙을 정의한다. 구체적인 정답 화면을 고정하지 않고, 인지 부담, 핵심 행동의 명확성, 선택 상태, 진행 상태, 쉬운 복구, 터치 조작성, 일관성, 실제 생활 연습성을 중심으로 판단하도록 한다.
+
+화면 수, 메뉴 수, 정확한 색상 코드, 버튼 위치, 카드 모양, 구체적인 진행 UI 방식 등은 의도적으로 고정하지 않는다.
+
 ## 현재 상태
 
 - [x] 중앙 관리 Repository `knollab-001` 생성
@@ -100,8 +113,9 @@ GitHub Repositories
 - [x] C ChatGPT 프로젝트 폴더 생성
 - [x] ChatGPT 프로젝트 폴더명과 Repository명 일치
 - [x] 프로젝트 전용 메모리 사용 원칙 확정
-- [ ] 실험용 웹 `DESIGN.md` 확정
-- [ ] 동일 `DESIGN.md`를 B와 C에 배치
+- [x] 실험용 웹 `DESIGN.md` 확정
+- [x] 동일 `DESIGN.md`를 B와 C에 배치
+- [x] B/C `DESIGN.md` byte-for-byte 동일성 확인
 - [ ] C 실험군용 Figma 기준 화면 확정
 - [ ] 세 프로젝트 초기 상태 통제
 - [ ] PR1 시작
