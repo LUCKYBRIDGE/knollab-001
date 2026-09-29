@@ -1,5 +1,7 @@
 # KNOLLAB-001 Experiment Projects
 
+> 이 문서는 A·B·C 실험의 초기 운영 계획을 보존한 기록이다. 현재 완료 버전, D 실험군, 체험 사이트 주소는 [README의 현재 체험 사이트](./README.md#현재-체험-사이트-2026-09-30)와 [보관본 출처](./experiments/SOURCES.md)를 참조한다.
+
 이 문서는 KNOLLAB-001 비교 실험에서 실제 개발에 사용하는 세 실험 프로젝트의 GitHub Repository와 ChatGPT 프로젝트 폴더 이름을 관리한다.
 
 ## 관리 원칙

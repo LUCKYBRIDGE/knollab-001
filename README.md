@@ -1,5 +1,20 @@
 # KNOLLAB-001 — DESIGN.md · Figma MCP 비교 실험
 
+## 현재 체험 사이트 (2026-09-30)
+
+[놀랩 001 실험 결과 체험 사이트](https://luckybridge.github.io/knollab-001/)에서 상단 버튼으로 A·B·C·D 실험군과 완성된 버전을 전환할 수 있다. A·B·C는 버전 1·2·3, D는 버전 1만 제공한다. 각 화면은 독립된 원본 버전으로 카페 주문 연습 전체 과정을 체험할 수 있다.
+
+| 실험군 | 배포된 개별 사이트 | 완성 버전 |
+|---|---|---|
+| A · AI Only | [사이트](https://luckybridge.github.io/knollab-001-a-ai-only/) | 1, 2, 3 |
+| B · DESIGN.md | [사이트](https://luckybridge.github.io/knollab-001-b-design-md/) | 1, 2, 3 |
+| C · DESIGN.md + Figma MCP | [사이트](https://luckybridge.github.io/knollab-001-c-design-figma-mcp/) | 1, 2, 3 |
+| D · DESIGN.md + Figma MCP 적극 활용 | [사이트](https://luckybridge.github.io/knollab-001-d-design-figma-mcp-actively/) | 1 |
+
+원본은 각 저장소의 `versions/vN/`에 보관한다. 중앙 사이트는 이를 [`experiments/`](./experiments/SOURCES.md)에 다시 복사하여 원본 저장소의 이후 변경과 관계없이 비교할 수 있게 했다. 아래 내용은 A·B·C 실험을 시작할 때 작성한 **초기 설계 기록**이며, 당시의 준비 상태를 그대로 보존한다.
+
+---
+
 > 강릉오성학교 AI 활용·바이브코딩 연수를 위한 비교 실험의 통제·기록 리포지토리이다.
 
 `knollab-001`은 실제 실험 웹사이트를 구현하는 곳이 아니라, 세 개의 독립된 실험 프로젝트를 동일한 조건으로 운영하고 PR1 → PR2 → PR3의 결과를 기록·비교하기 위한 기준 리포지토리이다.

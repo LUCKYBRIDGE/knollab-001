@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142c35">
+  <meta name="description" content="놀랩 001 카페 주문 연습 실험의 A·B·C 버전 1~3과 D 버전 1을 비교하고 체험합니다.">
+  <title>놀랩 001 · 실험 결과 체험</title>
+  <link rel="stylesheet" href="viewer.css">
+  <script src="viewer.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#experience">체험 화면으로 바로 가기</a>
+  <header class="toolbar">
+    <div class="heading">
+      <a class="wordmark" href="./">KNOLLAB <strong>001</strong></a>
+      <span class="heading-divider" aria-hidden="true"></span>
+      <span class="heading-caption">카페 주문 연습 · 실험 결과 체험</span>
+    </div>
+    <div class="controls">
+      <nav class="experiment-nav" aria-label="실험군 선택">
+        <a data-experiment="a" href="?experiment=a&amp;version=1"><strong>A</strong><span>AI Only</span></a>
+        <a data-experiment="b" href="?experiment=b&amp;version=1"><strong>B</strong><span>DESIGN.md</span></a>
+        <a data-experiment="c" href="?experiment=c&amp;version=1"><strong>C</strong><span>Figma MCP</span></a>
+        <a data-experiment="d" href="?experiment=d&amp;version=1"><strong>D</strong><span>Figma MCP 적극 활용</span></a>
+      </nav>
+      <nav class="version-nav" aria-label="버전 선택">
+        <a data-version="1" href="?experiment=a&amp;version=1">버전 1</a>
+        <a data-version="2" href="?experiment=a&amp;version=2">버전 2</a>
+        <a data-version="3" href="?experiment=a&amp;version=3">버전 3</a>
+      </nav>
+    </div>
+    <div class="context">
+      <p id="selection-label" aria-live="polite">A · AI Only / 버전 1</p>
+      <a id="source-link" href="https://github.com/LUCKYBRIDGE/knollab-001-a-ai-only" target="_blank" rel="noopener noreferrer">원본 저장소 ↗</a>
+      <a id="direct-link" href="experiments/a/v1/" target="_blank" rel="noopener noreferrer">화면 단독 열기 ↗</a>
+    </div>
+  </header>
+  <main id="experience" class="experience" tabindex="-1">
+    <iframe id="experience-frame" title="A · AI Only 버전 1 카페 주문 연습" src="experiments/a/v1/" loading="eager" sandbox="allow-scripts" referrerpolicy="no-referrer"></iframe>
+  </main>
+</body>
+</html>
